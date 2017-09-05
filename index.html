@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/slick.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	
+</head>
+<body>
+<div class="logo__wrapper wrapper">
+	<div class="logo">
+		<div class="logo__icon"></div>
+	</div>
+</div>
+<div class="navbar__wrapper wrapper">
+	<div class="navbar">
+		<div class="navbar__left">
+			<input class="navbar__left-checkbox" id="men" type="checkbox"><label for="men">men</label>
+			<input class="navbar__left-checkbox" id="women" type="checkbox"><label for="women">women</label>
+			<input class="navbar__left-checkbox" id="children" type="checkbox"><label for="children">children</label>
+		</div>
+		<div class="navbar__right">
+			<button id="navbar__right-button">see all products</button>
+		</div>
+	</div>
+</div>
+
+<div class="sort__wrapper wrapper">
+	<div class="sort">
+		<p class="sort__title">Sort by</p>
+		<p class="sort__value  sort__select-option--down">price</p>
+		<ul class="sort__select">
+			<li class="sort__select-option sort__select-option--up">price</li>
+			<li class="sort__select-option">name</li>
+		</ul>
+	</div>
+</div>
+
+<div class="catalog__wrapper wrapper">
+	<div class="catalog">
+		<div class="catalog__men">
+		<p class="catalog__title">MEN</p> <hr>
+			<div class="catalog__navigation catalog__navigation--men">
+				<p></p> 
+				<button id="prev-men" class="prevButton"></button>
+				<button id="next-men" class="nextButton"></button>
+			</div>
+			<div class="catalog__men-slider slider">
+				
+				  <div class="item">
+				  	
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">t-shirt</p>
+				  		<span>€</span><p class="item__info-price">5,00</p>
+				  	</div>
+				  	
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">pants forclaz</p>
+				  		<span>€</span><p class="item__info-price">30,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p>10litri</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/bag.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">backpack</p>
+				  		<span>€</span><p class="item__info-price">60,00</p>
+				  	</div>
+				  </div>
+				
+				
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">good t-shirt</p>
+				  		<span>€</span><p class="item__info-price">10,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">jeans</p>
+				  		<span>€</span><p class="item__info-price">3,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p>10litri</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/bag.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">bag</p>
+				  		<span>€</span><p class="item__info-price">15,00</p>
+				  	</div>
+				  </div>
+				
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">shirt</p>
+				  		<span>€</span><p class="item__info-price">8,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">pants</p>
+				  		<span>€</span><p class="item__info-price">13,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p>10litri</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/bag.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">handbag</p>
+				  		<span>€</span><p class="item__info-price">60,50</p>
+				  	</div>
+				  </div>
+				
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">blouse</p>
+				  		<span>€</span><p class="item__info-price">80,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">trousers</p>
+				  		<span>€</span><p class="item__info-price">130,00</p>
+				  	</div>
+				  </div>
+				
+				
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">singlet</p>
+				  		<span>€</span><p class="item__info-price">87,04</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">breeches</p>
+				  		<span>€</span><p class="item__info-price">19,07</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p>10litri</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/bag.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">rucksack</p>
+				  		<span>€</span><p class="item__info-price">0,50</p>
+				  	</div>
+				  </div>
+			</div>
+		</div>
+
+		<div class="catalog__women">
+			<hr><p class="catalog__title">WOMEN</p> 
+			<div class="catalog__navigation catalog__navigation--women">
+				<p></p> 
+				<button id="prev-women" class="prevButton"></button>
+				<button id="next-women" class="nextButton"></button>
+			</div>
+			<div class="catalog__women-slider slider">
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jacket.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">giacket</p>
+				  		<span>€</span><p class="item__info-price">60,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/sneakers.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">trekking shoes</p>
+				  		<span>€</span><p class="item__info-price">80,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="pink"></div>
+				  			<div class="white"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt-woman.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">t-shirt</p>
+				  		<span>€</span><p class="item__info-price">20,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">good t-shirt</p>
+				  		<span>€</span><p class="item__info-price">10,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">jeans</p>
+				  		<span>€</span><p class="item__info-price">3,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p>10litri</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/bag.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">bag</p>
+				  		<span>€</span><p class="item__info-price">15,00</p>
+				  	</div>
+				  </div>
+				
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">shirt</p>
+				  		<span>€</span><p class="item__info-price">8,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">pants</p>
+				  		<span>€</span><p class="item__info-price">13,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p>10litri</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/bag.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">handbag</p>
+				  		<span>€</span><p class="item__info-price">60,50</p>
+				  	</div>
+				  </div>
+				
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">blouse</p>
+				  		<span>€</span><p class="item__info-price">80,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">trousers</p>
+				  		<span>€</span><p class="item__info-price">130,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p>10litri</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/bag.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">haversack</p>
+				  		<span>€</span><p class="item__info-price">1,00</p>
+				  	</div>
+				  </div>
+			</div>
+		</div>
+		<div class="catalog__children">
+			<p class="catalog__title">CHILDREN</p> <hr>
+			<div class="catalog__navigation catalog__navigation--children">
+				<p></p> 
+				<button id="prev-children" class="prevButton"></button>
+				<button id="next-children" class="nextButton"></button>
+			</div>
+			<div class="catalog__children-slider slider">
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">t-shirt</p>
+				  		<span>€</span><p class="item__info-price">5,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">pants forclaz</p>
+				  		<span>€</span><p class="item__info-price">30,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p>10litri</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/bag.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">backpack</p>
+				  		<span>€</span><p class="item__info-price">60,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">good t-shirt</p>
+				  		<span>€</span><p class="item__info-price">10,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">jeans</p>
+				  		<span>€</span><p class="item__info-price">3,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p>10litri</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/bag.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">bag</p>
+				  		<span>€</span><p class="item__info-price">15,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">shirt</p>
+				  		<span>€</span><p class="item__info-price">8,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">pants</p>
+				  		<span>€</span><p class="item__info-price">13,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p>10litri</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/bag.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">handbag</p>
+				  		<span>€</span><p class="item__info-price">60,50</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">blouse</p>
+				  		<span>€</span><p class="item__info-price">80,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">trousers</p>
+				  		<span>€</span><p class="item__info-price">130,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p>10litri</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/bag.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">haversack</p>
+				  		<span>€</span><p class="item__info-price">1,00</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  			<div class="blue"></div>
+				  			<div class="yellow"></div>
+				  			<div class="grey"></div>
+				  		</div>
+				  	</div>
+				  	<img src="images/Tshirt.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">singlet</p>
+				  		<span>€</span><p class="item__info-price">87,04</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p class="item__info-size">Size</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/jeans.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">breeches</p>
+				  		<span>€</span><p class="item__info-price">19,07</p>
+				  	</div>
+				  </div>
+				  <div class="item">
+				  	<div class="item__info item__info--top">
+				  		<p>10litri</p>
+				  		<div class="item__info-colors">
+				  		</div>
+				  	</div>
+				  	<img src="images/bag.png" class="item__img">
+				  	<div class="item__info item__info--bottom">
+				  		<p class="item__info-name">rucksack</p>
+				  		<span>€</span><p class="item__info-price">0,50</p>
+				  	</div>
+				  </div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+
+<script type="text/javascript" src="js/sliders.js"></script>
+<script type="text/javascript" src="js/commonFunctions.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
